@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 3c657b36ab47f5645b5f570de7dbf955
+timeCreated: 1509790597
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Backwall
+    100002: directionalLight1
+    100004: directionalLight2
+    100006: //RootNode
+    100008: HallHull
+    100010: spotLight1
+    100012: spotLight10
+    100014: spotLight11
+    100016: spotLight12
+    100018: spotLight13
+    100020: spotLight14
+    100022: spotLight15
+    100024: spotLight16
+    100026: spotLight17
+    100028: spotLight18
+    100030: spotLight19
+    100032: spotLight2
+    100034: spotLight20
+    100036: spotLight21
+    100038: spotLight22
+    100040: spotLight23
+    100042: spotLight24
+    100044: spotLight25
+    100046: spotLight26
+    100048: spotLight27
+    100050: spotLight28
+    100052: spotLight29
+    100054: spotLight3
+    100056: spotLight30
+    100058: spotLight4
+    100060: spotLight5
+    100062: spotLight6
+    100064: spotLight7
+    100066: spotLight8
+    100068: spotLight9
+    400000: Backwall
+    400002: directionalLight1
+    400004: directionalLight2
+    400006: //RootNode
+    400008: HallHull
+    400010: spotLight1
+    400012: spotLight10
+    400014: spotLight11
+    400016: spotLight12
+    400018: spotLight13
+    400020: spotLight14
+    400022: spotLight15
+    400024: spotLight16
+    400026: spotLight17
+    400028: spotLight18
+    400030: spotLight19
+    400032: spotLight2
+    400034: spotLight20
+    400036: spotLight21
+    400038: spotLight22
+    400040: spotLight23
+    400042: spotLight24
+    400044: spotLight25
+    400046: spotLight26
+    400048: spotLight27
+    400050: spotLight28
+    400052: spotLight29
+    400054: spotLight3
+    400056: spotLight30
+    400058: spotLight4
+    400060: spotLight5
+    400062: spotLight6
+    400064: spotLight7
+    400066: spotLight8
+    400068: spotLight9
+    2300000: Backwall
+    2300002: HallHull
+    3300000: Backwall
+    3300002: HallHull
+    4300000: HallHull
+    4300002: Backwall
+    6400000: Backwall
+    6400002: HallHull
+    9500000: //RootNode
+    10800000: directionalLight1
+    10800002: directionalLight2
+    10800004: spotLight1
+    10800006: spotLight10
+    10800008: spotLight11
+    10800010: spotLight12
+    10800012: spotLight13
+    10800014: spotLight14
+    10800016: spotLight15
+    10800018: spotLight16
+    10800020: spotLight17
+    10800022: spotLight18
+    10800024: spotLight19
+    10800026: spotLight2
+    10800028: spotLight20
+    10800030: spotLight21
+    10800032: spotLight22
+    10800034: spotLight23
+    10800036: spotLight24
+    10800038: spotLight25
+    10800040: spotLight26
+    10800042: spotLight27
+    10800044: spotLight28
+    10800046: spotLight29
+    10800048: spotLight3
+    10800050: spotLight30
+    10800052: spotLight4
+    10800054: spotLight5
+    10800056: spotLight6
+    10800058: spotLight7
+    10800060: spotLight8
+    10800062: spotLight9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ca4a15b09341513408fc03447b3dc315, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

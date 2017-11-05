@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-11-04T16:09:24Z</created><keywords></keywords><modified>2017-11-04T16:09:24Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube19-lib" name="pCube19Mesh">
+      <mesh>
+        <source id="pCube19-POSITION">
+          <float_array id="pCube19-POSITION-array" count="24">
+-68.163422 -1.570595 0.500000
+68.163422 -1.570595 0.500000
+-68.163422 1.570595 0.500000
+68.163422 1.570595 0.500000
+-68.163422 1.570595 -0.500000
+68.163422 1.570595 -0.500000
+-68.163422 -1.570595 -0.500000
+68.163422 -1.570595 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube19-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19-Normal0">
+          <float_array id="pCube19-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube19-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19-UV0">
+          <float_array id="pCube19-UV0-array" count="28">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube19-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube19-VERTEX">
+          <input semantic="POSITION" source="#pCube19-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#pCube19-VERTEX"/><input semantic="NORMAL" offset="1" source="#pCube19-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pCube19-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 2 6 2 3 7 3 5 8 5 2 9 2 5 10 5 4 11 4 7 12 7 6 13 6 4 14 4 7 15 7 4 16 4 5 17 5 1 18 9 0 19 8 6 20 6 1 21 9 6 22 6 7 23 7 7 24 10 5 25 11 1 26 1 3 27 3 1 28 1 5 29 11 2 30 2 6 31 12 0 32 0 6 33 12 2 34 2 4 35 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube20-lib" name="pCube20Mesh">
+      <mesh>
+        <source id="pCube20-POSITION">
+          <float_array id="pCube20-POSITION-array" count="24">
+-89.553818 -1.570595 -0.895533
+68.217857 -1.570595 3.158748
+-89.553818 1.570595 -0.895533
+68.217857 1.570595 3.158748
+-89.575592 1.570595 -3.299282
+68.189079 1.570595 0.754953
+-89.575592 -1.570595 -3.299282
+68.189079 -1.570595 0.754953
+</float_array>
+          <technique_common>
+            <accessor source="#pCube20-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube20-Normal0">
+          <float_array id="pCube20-Normal0-array" count="108">
+-0.025689 0.000000 0.999670
+-0.025689 0.000000 0.999670
+-0.025689 0.000000 0.999670
+-0.025689 0.000000 0.999670
+-0.025689 0.000000 0.999670
+-0.025689 0.000000 0.999670
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.025690 0.000000 -0.999670
+0.025690 0.000000 -0.999670
+0.025690 0.000000 -0.999670
+0.025690 0.000000 -0.999670
+0.025690 0.000000 -0.999670
+0.025690 0.000000 -0.999670
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.999928 0.000000 -0.011971
+0.999928 0.000000 -0.011971
+0.999928 0.000000 -0.011971
+0.999928 0.000000 -0.011971
+0.999928 0.000000 -0.011971
+0.999928 0.000000 -0.011971
+-0.999959 0.000000 0.009058
+-0.999959 0.000000 0.009058
+-0.999959 0.000000 0.009058
+-0.999959 0.000000 0.009058
+-0.999959 0.000000 0.009058
+-0.999959 0.000000 0.009058
+</float_array>
+          <technique_common>
+            <accessor source="#pCube20-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube20-UV0">
+          <float_array id="pCube20-UV0-array" count="28">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube20-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube20-VERTEX">
+          <input semantic="POSITION" source="#pCube20-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#pCube20-VERTEX"/><input semantic="NORMAL" offset="1" source="#pCube20-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pCube20-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 5 6 5 4 7 4 2 8 2 2 9 2 3 10 3 5 11 5 7 12 7 6 13 6 4 14 4 7 15 7 4 16 4 5 17 5 0 18 8 7 19 7 1 20 9 7 21 7 0 22 8 6 23 6 3 24 3 1 25 1 5 26 11 1 27 1 7 28 10 5 29 11 2 30 2 6 31 12 0 32 0 6 33 12 2 34 2 4 35 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube21-lib" name="pCube21Mesh">
+      <mesh>
+        <source id="pCube21-POSITION">
+          <float_array id="pCube21-POSITION-array" count="24">
+-68.163422 -1.570595 0.500000
+68.163422 -1.570595 0.500000
+-68.163422 1.570595 0.500000
+68.163422 1.570595 0.500000
+-68.163422 1.570595 -0.500000
+68.163422 1.570595 -0.500000
+-68.163422 -1.570595 -0.500000
+68.163422 -1.570595 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube21-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube21-Normal0">
+          <float_array id="pCube21-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube21-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube21-UV0">
+          <float_array id="pCube21-UV0-array" count="28">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube21-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube21-VERTEX">
+          <input semantic="POSITION" source="#pCube21-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#pCube21-VERTEX"/><input semantic="NORMAL" offset="1" source="#pCube21-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pCube21-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 2 6 2 3 7 3 5 8 5 2 9 2 5 10 5 4 11 4 7 12 7 6 13 6 4 14 4 7 15 7 4 16 4 5 17 5 1 18 9 0 19 8 6 20 6 1 21 9 6 22 6 7 23 7 7 24 10 5 25 11 1 26 1 3 27 3 1 28 1 5 29 11 2 30 2 6 31 12 0 32 0 6 33 12 2 34 2 4 35 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube22-lib" name="pCube22Mesh">
+      <mesh>
+        <source id="pCube22-POSITION">
+          <float_array id="pCube22-POSITION-array" count="24">
+-89.879021 -1.570595 -1.853718
+68.217880 -1.570595 3.158748
+-89.879021 1.570595 -1.853718
+68.217880 1.570595 3.158748
+-89.907806 1.570595 -4.257512
+68.189095 1.570595 0.754954
+-89.907806 -1.570595 -4.257512
+68.189095 -1.570595 0.754954
+</float_array>
+          <technique_common>
+            <accessor source="#pCube22-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube22-Normal0">
+          <float_array id="pCube22-Normal0-array" count="108">
+-0.031689 0.000000 0.999498
+-0.031689 0.000000 0.999498
+-0.031689 0.000000 0.999498
+-0.031689 0.000000 0.999498
+-0.031689 0.000000 0.999498
+-0.031689 0.000000 0.999498
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.031689 0.000000 -0.999498
+0.031689 0.000000 -0.999498
+0.031689 0.000000 -0.999498
+0.031689 0.000000 -0.999498
+0.031689 0.000000 -0.999498
+0.031689 0.000000 -0.999498
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.999928 0.000000 -0.011974
+0.999928 0.000000 -0.011974
+0.999928 0.000000 -0.011974
+0.999928 0.000000 -0.011974
+0.999928 0.000000 -0.011974
+0.999928 0.000000 -0.011974
+-0.999928 0.000000 0.011974
+-0.999928 0.000000 0.011974
+-0.999928 0.000000 0.011974
+-0.999928 0.000000 0.011974
+-0.999928 0.000000 0.011974
+-0.999928 0.000000 0.011974
+</float_array>
+          <technique_common>
+            <accessor source="#pCube22-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube22-UV0">
+          <float_array id="pCube22-UV0-array" count="28">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube22-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube22-VERTEX">
+          <input semantic="POSITION" source="#pCube22-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#pCube22-VERTEX"/><input semantic="NORMAL" offset="1" source="#pCube22-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pCube22-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 5 6 5 4 7 4 2 8 2 2 9 2 3 10 3 5 11 5 7 12 7 6 13 6 4 14 4 7 15 7 4 16 4 5 17 5 0 18 8 7 19 7 1 20 9 7 21 7 0 22 8 6 23 6 3 24 3 1 25 1 5 26 11 1 27 1 7 28 10 5 29 11 2 30 2 6 31 12 0 32 0 6 33 12 2 34 2 4 35 13</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="HullExtWallsV2" name="HullExtWallsV2">
+      <node name="pCube19" id="pCube19" sid="pCube19"><matrix sid="matrix">5.447664 0.000000 0.000000 -148.607285 0.000000 5.447664 0.000000 1.167209 0.000000 0.000000 5.447664 7.885560 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube19-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="pCube20" id="pCube20" sid="pCube20"><matrix sid="matrix">5.447546 0.000000 0.035845 -890.100464 0.000000 5.447664 0.000000 1.167209 -0.035845 0.000000 5.447546 -19.545952 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube20-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="pCube21" id="pCube21" sid="pCube21"><matrix sid="matrix">5.447664 0.000000 0.000000 -148.607285 0.000000 5.447664 0.000000 1.167209 0.000000 0.000000 5.447664 -7.271966 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube21-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="pCube22" id="pCube22" sid="pCube22"><matrix sid="matrix">5.440688 0.000000 0.275613 -890.100464 0.000000 5.447664 0.000000 1.167209 -0.275613 0.000000 5.440688 19.231627 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube22-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#HullExtWallsV2"></instance_visual_scene>
+  </scene>
+</COLLADA>

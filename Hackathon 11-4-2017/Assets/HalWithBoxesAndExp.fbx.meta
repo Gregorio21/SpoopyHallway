@@ -1,0 +1,1028 @@
+fileFormatVersion: 2
+guid: 2c0d23b7942dedb4188ab85d9a578f62
+timeCreated: 1509799021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Backwall
+    100002: camera1
+    100004: directionalLight1
+    100006: directionalLight2
+    100008: group1
+    100010: group1 1
+    100012: group2
+    100014: HallHull
+    100016: //RootNode
+    100018: Ligt_fixture
+    100020: Ligt_fixture1
+    100022: Ligt_fixture10
+    100024: Ligt_fixture11
+    100026: Ligt_fixture12
+    100028: Ligt_fixture13
+    100030: Ligt_fixture14
+    100032: Ligt_fixture15
+    100034: Ligt_fixture16
+    100036: Ligt_fixture17
+    100038: Ligt_fixture18
+    100040: Ligt_fixture19
+    100042: Ligt_fixture2
+    100044: Ligt_fixture20
+    100046: Ligt_fixture21
+    100048: Ligt_fixture22
+    100050: Ligt_fixture23
+    100052: Ligt_fixture24
+    100054: Ligt_fixture25
+    100056: Ligt_fixture26
+    100058: Ligt_fixture27
+    100060: Ligt_fixture28
+    100062: Ligt_fixture29
+    100064: Ligt_fixture3
+    100066: Ligt_fixture30
+    100068: Ligt_fixture31
+    100070: Ligt_fixture32
+    100072: Ligt_fixture33
+    100074: Ligt_fixture34
+    100076: Ligt_fixture35
+    100078: Ligt_fixture36
+    100080: Ligt_fixture37
+    100082: Ligt_fixture38
+    100084: Ligt_fixture4
+    100086: Ligt_fixture5
+    100088: Ligt_fixture6
+    100090: Ligt_fixture7
+    100092: Ligt_fixture8
+    100094: Ligt_fixture9
+    100096: oneSide
+    100098: otherSide
+    100100: pCube1
+    100102: pCube10
+    100104: pCube11
+    100106: pCube12
+    100108: pCube13
+    100110: pCube13 1
+    100112: pCube14
+    100114: pCube15
+    100116: pCube16
+    100118: pCube16 1
+    100120: pCube17
+    100122: pCube17 1
+    100124: pCube2
+    100126: pCube3
+    100128: pCube4
+    100130: pCube5
+    100132: pCube6
+    100134: pCube7
+    100136: pCube8
+    100138: pCube9
+    100140: pCylinder1
+    100142: pCylinder1 1
+    100144: pCylinder1 10
+    100146: pCylinder1 11
+    100148: pCylinder1 12
+    100150: pCylinder1 13
+    100152: pCylinder1 14
+    100154: pCylinder1 15
+    100156: pCylinder1 16
+    100158: pCylinder1 17
+    100160: pCylinder1 18
+    100162: pCylinder1 19
+    100164: pCylinder1 2
+    100166: pCylinder1 20
+    100168: pCylinder1 21
+    100170: pCylinder1 22
+    100172: pCylinder1 23
+    100174: pCylinder1 24
+    100176: pCylinder1 25
+    100178: pCylinder1 26
+    100180: pCylinder1 27
+    100182: pCylinder1 28
+    100184: pCylinder1 29
+    100186: pCylinder1 3
+    100188: pCylinder1 30
+    100190: pCylinder1 31
+    100192: pCylinder1 32
+    100194: pCylinder1 33
+    100196: pCylinder1 34
+    100198: pCylinder1 35
+    100200: pCylinder1 36
+    100202: pCylinder1 37
+    100204: pCylinder1 38
+    100206: pCylinder1 4
+    100208: pCylinder1 5
+    100210: pCylinder1 6
+    100212: pCylinder1 7
+    100214: pCylinder1 8
+    100216: pCylinder1 9
+    100218: place3dTexture1
+    100220: place3dTexture2
+    100222: pPlane1
+    100224: pSphere1
+    100226: pSphere1 1
+    100228: pSphere1 10
+    100230: pSphere1 11
+    100232: pSphere1 12
+    100234: pSphere1 13
+    100236: pSphere1 14
+    100238: pSphere1 15
+    100240: pSphere1 16
+    100242: pSphere1 17
+    100244: pSphere1 18
+    100246: pSphere1 19
+    100248: pSphere1 2
+    100250: pSphere1 20
+    100252: pSphere1 21
+    100254: pSphere1 22
+    100256: pSphere1 23
+    100258: pSphere1 24
+    100260: pSphere1 25
+    100262: pSphere1 26
+    100264: pSphere1 27
+    100266: pSphere1 28
+    100268: pSphere1 29
+    100270: pSphere1 3
+    100272: pSphere1 30
+    100274: pSphere1 31
+    100276: pSphere1 32
+    100278: pSphere1 33
+    100280: pSphere1 34
+    100282: pSphere1 35
+    100284: pSphere1 36
+    100286: pSphere1 37
+    100288: pSphere1 38
+    100290: pSphere1 4
+    100292: pSphere1 5
+    100294: pSphere1 6
+    100296: pSphere1 7
+    100298: pSphere1 8
+    100300: pSphere1 9
+    100302: Skellhide
+    100304: Skellhide1
+    100306: spotLight1
+    100308: spotLight10
+    100310: spotLight11
+    100312: spotLight12
+    100314: spotLight13
+    100316: spotLight14
+    100318: spotLight15
+    100320: spotLight16
+    100322: spotLight17
+    100324: spotLight18
+    100326: spotLight19
+    100328: spotLight2
+    100330: spotLight20
+    100332: spotLight21
+    100334: spotLight22
+    100336: spotLight23
+    100338: spotLight24
+    100340: spotLight25
+    100342: spotLight26
+    100344: spotLight27
+    100346: spotLight28
+    100348: spotLight29
+    100350: spotLight3
+    100352: spotLight30
+    100354: spotLight31
+    100356: spotLight31 1
+    100358: spotLight32
+    100360: spotLight32 1
+    100362: spotLight33
+    100364: spotLight34
+    100366: spotLight35
+    100368: spotLight36
+    100370: spotLight37
+    100372: spotLight38
+    100374: spotLight39
+    100376: spotLight4
+    100378: spotLight40
+    100380: spotLight41
+    100382: spotLight42
+    100384: spotLight43
+    100386: spotLight44
+    100388: spotLight45
+    100390: spotLight46
+    100392: spotLight47
+    100394: spotLight48
+    100396: spotLight49
+    100398: spotLight5
+    100400: spotLight50
+    100402: spotLight51
+    100404: spotLight52
+    100406: spotLight53
+    100408: spotLight54
+    100410: spotLight55
+    100412: spotLight56
+    100414: spotLight6
+    100416: spotLight7
+    100418: spotLight8
+    100420: spotLight9
+    100422: sub01
+    100424: sub01 1
+    100426: sub02
+    100428: sub02 1
+    400000: Backwall
+    400002: camera1
+    400004: directionalLight1
+    400006: directionalLight2
+    400008: group1
+    400010: group1 1
+    400012: group2
+    400014: HallHull
+    400016: //RootNode
+    400018: Ligt_fixture
+    400020: Ligt_fixture1
+    400022: Ligt_fixture10
+    400024: Ligt_fixture11
+    400026: Ligt_fixture12
+    400028: Ligt_fixture13
+    400030: Ligt_fixture14
+    400032: Ligt_fixture15
+    400034: Ligt_fixture16
+    400036: Ligt_fixture17
+    400038: Ligt_fixture18
+    400040: Ligt_fixture19
+    400042: Ligt_fixture2
+    400044: Ligt_fixture20
+    400046: Ligt_fixture21
+    400048: Ligt_fixture22
+    400050: Ligt_fixture23
+    400052: Ligt_fixture24
+    400054: Ligt_fixture25
+    400056: Ligt_fixture26
+    400058: Ligt_fixture27
+    400060: Ligt_fixture28
+    400062: Ligt_fixture29
+    400064: Ligt_fixture3
+    400066: Ligt_fixture30
+    400068: Ligt_fixture31
+    400070: Ligt_fixture32
+    400072: Ligt_fixture33
+    400074: Ligt_fixture34
+    400076: Ligt_fixture35
+    400078: Ligt_fixture36
+    400080: Ligt_fixture37
+    400082: Ligt_fixture38
+    400084: Ligt_fixture4
+    400086: Ligt_fixture5
+    400088: Ligt_fixture6
+    400090: Ligt_fixture7
+    400092: Ligt_fixture8
+    400094: Ligt_fixture9
+    400096: oneSide
+    400098: otherSide
+    400100: pCube1
+    400102: pCube10
+    400104: pCube11
+    400106: pCube12
+    400108: pCube13
+    400110: pCube13 1
+    400112: pCube14
+    400114: pCube15
+    400116: pCube16
+    400118: pCube16 1
+    400120: pCube17
+    400122: pCube17 1
+    400124: pCube2
+    400126: pCube3
+    400128: pCube4
+    400130: pCube5
+    400132: pCube6
+    400134: pCube7
+    400136: pCube8
+    400138: pCube9
+    400140: pCylinder1
+    400142: pCylinder1 1
+    400144: pCylinder1 10
+    400146: pCylinder1 11
+    400148: pCylinder1 12
+    400150: pCylinder1 13
+    400152: pCylinder1 14
+    400154: pCylinder1 15
+    400156: pCylinder1 16
+    400158: pCylinder1 17
+    400160: pCylinder1 18
+    400162: pCylinder1 19
+    400164: pCylinder1 2
+    400166: pCylinder1 20
+    400168: pCylinder1 21
+    400170: pCylinder1 22
+    400172: pCylinder1 23
+    400174: pCylinder1 24
+    400176: pCylinder1 25
+    400178: pCylinder1 26
+    400180: pCylinder1 27
+    400182: pCylinder1 28
+    400184: pCylinder1 29
+    400186: pCylinder1 3
+    400188: pCylinder1 30
+    400190: pCylinder1 31
+    400192: pCylinder1 32
+    400194: pCylinder1 33
+    400196: pCylinder1 34
+    400198: pCylinder1 35
+    400200: pCylinder1 36
+    400202: pCylinder1 37
+    400204: pCylinder1 38
+    400206: pCylinder1 4
+    400208: pCylinder1 5
+    400210: pCylinder1 6
+    400212: pCylinder1 7
+    400214: pCylinder1 8
+    400216: pCylinder1 9
+    400218: place3dTexture1
+    400220: place3dTexture2
+    400222: pPlane1
+    400224: pSphere1
+    400226: pSphere1 1
+    400228: pSphere1 10
+    400230: pSphere1 11
+    400232: pSphere1 12
+    400234: pSphere1 13
+    400236: pSphere1 14
+    400238: pSphere1 15
+    400240: pSphere1 16
+    400242: pSphere1 17
+    400244: pSphere1 18
+    400246: pSphere1 19
+    400248: pSphere1 2
+    400250: pSphere1 20
+    400252: pSphere1 21
+    400254: pSphere1 22
+    400256: pSphere1 23
+    400258: pSphere1 24
+    400260: pSphere1 25
+    400262: pSphere1 26
+    400264: pSphere1 27
+    400266: pSphere1 28
+    400268: pSphere1 29
+    400270: pSphere1 3
+    400272: pSphere1 30
+    400274: pSphere1 31
+    400276: pSphere1 32
+    400278: pSphere1 33
+    400280: pSphere1 34
+    400282: pSphere1 35
+    400284: pSphere1 36
+    400286: pSphere1 37
+    400288: pSphere1 38
+    400290: pSphere1 4
+    400292: pSphere1 5
+    400294: pSphere1 6
+    400296: pSphere1 7
+    400298: pSphere1 8
+    400300: pSphere1 9
+    400302: Skellhide
+    400304: Skellhide1
+    400306: spotLight1
+    400308: spotLight10
+    400310: spotLight11
+    400312: spotLight12
+    400314: spotLight13
+    400316: spotLight14
+    400318: spotLight15
+    400320: spotLight16
+    400322: spotLight17
+    400324: spotLight18
+    400326: spotLight19
+    400328: spotLight2
+    400330: spotLight20
+    400332: spotLight21
+    400334: spotLight22
+    400336: spotLight23
+    400338: spotLight24
+    400340: spotLight25
+    400342: spotLight26
+    400344: spotLight27
+    400346: spotLight28
+    400348: spotLight29
+    400350: spotLight3
+    400352: spotLight30
+    400354: spotLight31
+    400356: spotLight31 1
+    400358: spotLight32
+    400360: spotLight32 1
+    400362: spotLight33
+    400364: spotLight34
+    400366: spotLight35
+    400368: spotLight36
+    400370: spotLight37
+    400372: spotLight38
+    400374: spotLight39
+    400376: spotLight4
+    400378: spotLight40
+    400380: spotLight41
+    400382: spotLight42
+    400384: spotLight43
+    400386: spotLight44
+    400388: spotLight45
+    400390: spotLight46
+    400392: spotLight47
+    400394: spotLight48
+    400396: spotLight49
+    400398: spotLight5
+    400400: spotLight50
+    400402: spotLight51
+    400404: spotLight52
+    400406: spotLight53
+    400408: spotLight54
+    400410: spotLight55
+    400412: spotLight56
+    400414: spotLight6
+    400416: spotLight7
+    400418: spotLight8
+    400420: spotLight9
+    400422: sub01
+    400424: sub01 1
+    400426: sub02
+    400428: sub02 1
+    2000000: camera1
+    2300000: Backwall
+    2300002: HallHull
+    2300004: pCube1
+    2300006: pCube10
+    2300008: pCube11
+    2300010: pCube12
+    2300012: pCube13
+    2300014: pCube13 1
+    2300016: pCube14
+    2300018: pCube15
+    2300020: pCube16
+    2300022: pCube16 1
+    2300024: pCube17
+    2300026: pCube17 1
+    2300028: pCube2
+    2300030: pCube3
+    2300032: pCube4
+    2300034: pCube5
+    2300036: pCube6
+    2300038: pCube7
+    2300040: pCube8
+    2300042: pCube9
+    2300044: pCylinder1
+    2300046: pCylinder1 1
+    2300048: pCylinder1 10
+    2300050: pCylinder1 11
+    2300052: pCylinder1 12
+    2300054: pCylinder1 13
+    2300056: pCylinder1 14
+    2300058: pCylinder1 15
+    2300060: pCylinder1 16
+    2300062: pCylinder1 17
+    2300064: pCylinder1 18
+    2300066: pCylinder1 19
+    2300068: pCylinder1 2
+    2300070: pCylinder1 20
+    2300072: pCylinder1 21
+    2300074: pCylinder1 22
+    2300076: pCylinder1 23
+    2300078: pCylinder1 24
+    2300080: pCylinder1 25
+    2300082: pCylinder1 26
+    2300084: pCylinder1 27
+    2300086: pCylinder1 28
+    2300088: pCylinder1 29
+    2300090: pCylinder1 3
+    2300092: pCylinder1 30
+    2300094: pCylinder1 31
+    2300096: pCylinder1 32
+    2300098: pCylinder1 33
+    2300100: pCylinder1 34
+    2300102: pCylinder1 35
+    2300104: pCylinder1 36
+    2300106: pCylinder1 37
+    2300108: pCylinder1 38
+    2300110: pCylinder1 4
+    2300112: pCylinder1 5
+    2300114: pCylinder1 6
+    2300116: pCylinder1 7
+    2300118: pCylinder1 8
+    2300120: pCylinder1 9
+    2300122: pPlane1
+    2300124: pSphere1
+    2300126: pSphere1 1
+    2300128: pSphere1 10
+    2300130: pSphere1 11
+    2300132: pSphere1 12
+    2300134: pSphere1 13
+    2300136: pSphere1 14
+    2300138: pSphere1 15
+    2300140: pSphere1 16
+    2300142: pSphere1 17
+    2300144: pSphere1 18
+    2300146: pSphere1 19
+    2300148: pSphere1 2
+    2300150: pSphere1 20
+    2300152: pSphere1 21
+    2300154: pSphere1 22
+    2300156: pSphere1 23
+    2300158: pSphere1 24
+    2300160: pSphere1 25
+    2300162: pSphere1 26
+    2300164: pSphere1 27
+    2300166: pSphere1 28
+    2300168: pSphere1 29
+    2300170: pSphere1 3
+    2300172: pSphere1 30
+    2300174: pSphere1 31
+    2300176: pSphere1 32
+    2300178: pSphere1 33
+    2300180: pSphere1 34
+    2300182: pSphere1 35
+    2300184: pSphere1 36
+    2300186: pSphere1 37
+    2300188: pSphere1 38
+    2300190: pSphere1 4
+    2300192: pSphere1 5
+    2300194: pSphere1 6
+    2300196: pSphere1 7
+    2300198: pSphere1 8
+    2300200: pSphere1 9
+    2300202: sub01
+    2300204: sub01 1
+    2300206: sub02
+    2300208: sub02 1
+    3300000: Backwall
+    3300002: HallHull
+    3300004: pCube1
+    3300006: pCube10
+    3300008: pCube11
+    3300010: pCube12
+    3300012: pCube13
+    3300014: pCube13 1
+    3300016: pCube14
+    3300018: pCube15
+    3300020: pCube16
+    3300022: pCube16 1
+    3300024: pCube17
+    3300026: pCube17 1
+    3300028: pCube2
+    3300030: pCube3
+    3300032: pCube4
+    3300034: pCube5
+    3300036: pCube6
+    3300038: pCube7
+    3300040: pCube8
+    3300042: pCube9
+    3300044: pCylinder1
+    3300046: pCylinder1 1
+    3300048: pCylinder1 10
+    3300050: pCylinder1 11
+    3300052: pCylinder1 12
+    3300054: pCylinder1 13
+    3300056: pCylinder1 14
+    3300058: pCylinder1 15
+    3300060: pCylinder1 16
+    3300062: pCylinder1 17
+    3300064: pCylinder1 18
+    3300066: pCylinder1 19
+    3300068: pCylinder1 2
+    3300070: pCylinder1 20
+    3300072: pCylinder1 21
+    3300074: pCylinder1 22
+    3300076: pCylinder1 23
+    3300078: pCylinder1 24
+    3300080: pCylinder1 25
+    3300082: pCylinder1 26
+    3300084: pCylinder1 27
+    3300086: pCylinder1 28
+    3300088: pCylinder1 29
+    3300090: pCylinder1 3
+    3300092: pCylinder1 30
+    3300094: pCylinder1 31
+    3300096: pCylinder1 32
+    3300098: pCylinder1 33
+    3300100: pCylinder1 34
+    3300102: pCylinder1 35
+    3300104: pCylinder1 36
+    3300106: pCylinder1 37
+    3300108: pCylinder1 38
+    3300110: pCylinder1 4
+    3300112: pCylinder1 5
+    3300114: pCylinder1 6
+    3300116: pCylinder1 7
+    3300118: pCylinder1 8
+    3300120: pCylinder1 9
+    3300122: pPlane1
+    3300124: pSphere1
+    3300126: pSphere1 1
+    3300128: pSphere1 10
+    3300130: pSphere1 11
+    3300132: pSphere1 12
+    3300134: pSphere1 13
+    3300136: pSphere1 14
+    3300138: pSphere1 15
+    3300140: pSphere1 16
+    3300142: pSphere1 17
+    3300144: pSphere1 18
+    3300146: pSphere1 19
+    3300148: pSphere1 2
+    3300150: pSphere1 20
+    3300152: pSphere1 21
+    3300154: pSphere1 22
+    3300156: pSphere1 23
+    3300158: pSphere1 24
+    3300160: pSphere1 25
+    3300162: pSphere1 26
+    3300164: pSphere1 27
+    3300166: pSphere1 28
+    3300168: pSphere1 29
+    3300170: pSphere1 3
+    3300172: pSphere1 30
+    3300174: pSphere1 31
+    3300176: pSphere1 32
+    3300178: pSphere1 33
+    3300180: pSphere1 34
+    3300182: pSphere1 35
+    3300184: pSphere1 36
+    3300186: pSphere1 37
+    3300188: pSphere1 38
+    3300190: pSphere1 4
+    3300192: pSphere1 5
+    3300194: pSphere1 6
+    3300196: pSphere1 7
+    3300198: pSphere1 8
+    3300200: pSphere1 9
+    3300202: sub01
+    3300204: sub01 1
+    3300206: sub02
+    3300208: sub02 1
+    4300000: HallHull
+    4300002: Backwall
+    4300004: pCube1
+    4300006: pCube2
+    4300008: pCube3
+    4300010: pCube4
+    4300012: pCube5
+    4300014: pCube6
+    4300016: pCube7
+    4300018: pCube8
+    4300020: pCube9
+    4300022: pCube10
+    4300024: pCube11
+    4300026: pCube12
+    4300028: pCube14
+    4300030: pCube15
+    4300032: pCube17
+    4300034: pCube16
+    4300036: pCube13
+    4300038: sub02
+    4300040: sub01
+    4300042: pCube17
+    4300044: pCube16
+    4300046: pCube13
+    4300048: sub02
+    4300050: sub01
+    4300052: pCylinder1
+    4300054: pSphere1
+    4300056: pCylinder1
+    4300058: pSphere1
+    4300060: pCylinder1
+    4300062: pSphere1
+    4300064: pCylinder1
+    4300066: pSphere1
+    4300068: pCylinder1
+    4300070: pSphere1
+    4300072: pCylinder1
+    4300074: pSphere1
+    4300076: pCylinder1
+    4300078: pSphere1
+    4300080: pCylinder1
+    4300082: pSphere1
+    4300084: pCylinder1
+    4300086: pSphere1
+    4300088: pCylinder1
+    4300090: pSphere1
+    4300092: pCylinder1
+    4300094: pSphere1
+    4300096: pCylinder1
+    4300098: pSphere1
+    4300100: pCylinder1
+    4300102: pSphere1
+    4300104: pCylinder1
+    4300106: pSphere1
+    4300108: pCylinder1
+    4300110: pSphere1
+    4300112: pCylinder1
+    4300114: pSphere1
+    4300116: pCylinder1
+    4300118: pSphere1
+    4300120: pCylinder1
+    4300122: pSphere1
+    4300124: pCylinder1
+    4300126: pSphere1
+    4300128: pCylinder1
+    4300130: pSphere1
+    4300132: pCylinder1
+    4300134: pSphere1
+    4300136: pCylinder1
+    4300138: pSphere1
+    4300140: pCylinder1
+    4300142: pSphere1
+    4300144: pCylinder1
+    4300146: pSphere1
+    4300148: pCylinder1
+    4300150: pSphere1
+    4300152: pCylinder1
+    4300154: pSphere1
+    4300156: pCylinder1
+    4300158: pSphere1
+    4300160: pCylinder1
+    4300162: pSphere1
+    4300164: pPlane1
+    4300166: pSphere1
+    4300168: pCylinder1
+    4300170: pSphere1
+    4300172: pCylinder1
+    4300174: pSphere1
+    4300176: pCylinder1
+    4300178: pSphere1
+    4300180: pCylinder1
+    4300182: pSphere1
+    4300184: pCylinder1
+    4300186: pCylinder1
+    4300188: pSphere1
+    4300190: pCylinder1
+    4300192: pSphere1
+    4300194: pCylinder1
+    4300196: pSphere1
+    4300198: pCylinder1
+    4300200: pSphere1
+    4300202: pCylinder1
+    4300204: pSphere1
+    4300206: pCylinder1
+    4300208: pSphere1
+    6400000: Backwall
+    6400002: HallHull
+    6400004: pCube1
+    6400006: pCube10
+    6400008: pCube11
+    6400010: pCube12
+    6400012: pCube13
+    6400014: pCube13 1
+    6400016: pCube14
+    6400018: pCube15
+    6400020: pCube16
+    6400022: pCube16 1
+    6400024: pCube17
+    6400026: pCube17 1
+    6400028: pCube2
+    6400030: pCube3
+    6400032: pCube4
+    6400034: pCube5
+    6400036: pCube6
+    6400038: pCube7
+    6400040: pCube8
+    6400042: pCube9
+    6400044: pCylinder1
+    6400046: pCylinder1 1
+    6400048: pCylinder1 10
+    6400050: pCylinder1 11
+    6400052: pCylinder1 12
+    6400054: pCylinder1 13
+    6400056: pCylinder1 14
+    6400058: pCylinder1 15
+    6400060: pCylinder1 16
+    6400062: pCylinder1 17
+    6400064: pCylinder1 18
+    6400066: pCylinder1 19
+    6400068: pCylinder1 2
+    6400070: pCylinder1 20
+    6400072: pCylinder1 21
+    6400074: pCylinder1 22
+    6400076: pCylinder1 23
+    6400078: pCylinder1 24
+    6400080: pCylinder1 25
+    6400082: pCylinder1 26
+    6400084: pCylinder1 27
+    6400086: pCylinder1 28
+    6400088: pCylinder1 29
+    6400090: pCylinder1 3
+    6400092: pCylinder1 30
+    6400094: pCylinder1 31
+    6400096: pCylinder1 32
+    6400098: pCylinder1 33
+    6400100: pCylinder1 34
+    6400102: pCylinder1 35
+    6400104: pCylinder1 36
+    6400106: pCylinder1 37
+    6400108: pCylinder1 38
+    6400110: pCylinder1 4
+    6400112: pCylinder1 5
+    6400114: pCylinder1 6
+    6400116: pCylinder1 7
+    6400118: pCylinder1 8
+    6400120: pCylinder1 9
+    6400122: pPlane1
+    6400124: pSphere1
+    6400126: pSphere1 1
+    6400128: pSphere1 10
+    6400130: pSphere1 11
+    6400132: pSphere1 12
+    6400134: pSphere1 13
+    6400136: pSphere1 14
+    6400138: pSphere1 15
+    6400140: pSphere1 16
+    6400142: pSphere1 17
+    6400144: pSphere1 18
+    6400146: pSphere1 19
+    6400148: pSphere1 2
+    6400150: pSphere1 20
+    6400152: pSphere1 21
+    6400154: pSphere1 22
+    6400156: pSphere1 23
+    6400158: pSphere1 24
+    6400160: pSphere1 25
+    6400162: pSphere1 26
+    6400164: pSphere1 27
+    6400166: pSphere1 28
+    6400168: pSphere1 29
+    6400170: pSphere1 3
+    6400172: pSphere1 30
+    6400174: pSphere1 31
+    6400176: pSphere1 32
+    6400178: pSphere1 33
+    6400180: pSphere1 34
+    6400182: pSphere1 35
+    6400184: pSphere1 36
+    6400186: pSphere1 37
+    6400188: pSphere1 38
+    6400190: pSphere1 4
+    6400192: pSphere1 5
+    6400194: pSphere1 6
+    6400196: pSphere1 7
+    6400198: pSphere1 8
+    6400200: pSphere1 9
+    6400202: sub01
+    6400204: sub01 1
+    6400206: sub02
+    6400208: sub02 1
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: directionalLight1
+    10800002: directionalLight2
+    10800004: spotLight1
+    10800006: spotLight10
+    10800008: spotLight11
+    10800010: spotLight12
+    10800012: spotLight13
+    10800014: spotLight14
+    10800016: spotLight15
+    10800018: spotLight16
+    10800020: spotLight17
+    10800022: spotLight18
+    10800024: spotLight19
+    10800026: spotLight2
+    10800028: spotLight20
+    10800030: spotLight21
+    10800032: spotLight22
+    10800034: spotLight23
+    10800036: spotLight24
+    10800038: spotLight25
+    10800040: spotLight26
+    10800042: spotLight27
+    10800044: spotLight28
+    10800046: spotLight29
+    10800048: spotLight3
+    10800050: spotLight30
+    10800052: spotLight31
+    10800054: spotLight31 1
+    10800056: spotLight32
+    10800058: spotLight32 1
+    10800060: spotLight33
+    10800062: spotLight34
+    10800064: spotLight35
+    10800066: spotLight36
+    10800068: spotLight37
+    10800070: spotLight38
+    10800072: spotLight39
+    10800074: spotLight4
+    10800076: spotLight40
+    10800078: spotLight41
+    10800080: spotLight42
+    10800082: spotLight43
+    10800084: spotLight44
+    10800086: spotLight45
+    10800088: spotLight46
+    10800090: spotLight47
+    10800092: spotLight48
+    10800094: spotLight49
+    10800096: spotLight5
+    10800098: spotLight50
+    10800100: spotLight51
+    10800102: spotLight52
+    10800104: spotLight53
+    10800106: spotLight54
+    10800108: spotLight55
+    10800110: spotLight56
+    10800112: spotLight6
+    10800114: spotLight7
+    10800116: spotLight8
+    10800118: spotLight9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bones___Vray1
+    second: {fileID: 2100000, guid: 5d2f88156154f8949a4c4a7858bf93aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown___Vray1
+    second: {fileID: 2100000, guid: 9408194c79576b1489be5e023d829a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cement
+    second: {fileID: 2100000, guid: 8bb66db84fefb214ab6f65c9f2ddf690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White___Vray1
+    second: {fileID: 2100000, guid: 381a931ec9229994aab0c7158d4c9ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 9642d950ce60fff429d8d0c667f7c092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ca4a15b09341513408fc03447b3dc315, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
